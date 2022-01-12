@@ -38,7 +38,8 @@ class CT2LaTeX:
         self.file = file
         self.output = output
         self.debug = debug
-        self.path_out = self.file+PATH_IMAGES
+        if self.file is not None:
+            self.path_out = self.file+PATH_IMAGES
         self.node_report = None
         self.main()
 
