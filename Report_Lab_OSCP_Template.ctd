@@ -174,11 +174,11 @@ When performing the internal penetration test, there were several alarming vulne
 				<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641847613.62" ts_lastsave="1641952393.92" unique_id="133">
 					<rich_text>The penetration testing portions of the assessment focus heavily on gaining access to a variety of systems. During this penetration test, I was able to successfully gain access to X out of the X systems.</rich_text>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="125">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020510.67" unique_id="147">
 					<rich_text></rich_text>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="126">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="148">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="149">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="149">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -200,6 +200,7 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -209,26 +210,33 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="101">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="150">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 
@@ -236,32 +244,39 @@ When performing the internal penetration test, there were several alarming vulne
 							<encoded_png char_offset="0">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</encoded_png>
 						</node>
 					</node>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="127">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="151">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="148">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="152">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -270,9 +285,10 @@ When performing the internal penetration test, there were several alarming vulne
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="118">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="153">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 
@@ -281,11 +297,11 @@ When performing the internal penetration test, there were several alarming vulne
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="150">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020510.67" unique_id="154">
 					<rich_text></rich_text>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="151">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="155">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="152">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="156">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -307,6 +323,7 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -316,26 +333,33 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="153">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="157">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 
@@ -343,32 +367,39 @@ When performing the internal penetration test, there were several alarming vulne
 							<encoded_png char_offset="0">iVBORw0KGgoAAAANSUhEUgAAAJQAAAAiCAYAAAC5r/C8AAAABHNCSVQICAgIfAhkiAAAB91JREFUeJztm31UVGUexz8zAyIiDANpKOB7Wr6cfMs2FSWJWjERFZE3WVQIUGhdLcsjeU6t6ZJioWX40m4a4CDqqqFivqCsGmgKVq6rCWoZICAo8j7MPPsHtAs6AwPec/acPffz572/+7vf73O/9z733rmjEEIIZGQkQvm/FiDz/4UcKBlJkQMlIylyoGQkRQ6UjKTIgZKRFDlQMpIiB0pGUuRAyQCgUCgk6SMHSkZS5EDJSIoZgTJQnLWVVb5DsbLoyejp/vj7zeZ19xcYO2UBG7JKMBir8fdn7pxZeL82hn6T13Fd/2iNH3NmePLSC+7MW3uMXxsNFJ1OJHbWs1hZOPNy1PtsOnYbQ5va6slaMgALy+HEXmo0USOoyEsmdp4PM4MWErV4EW/MD8THczJTZm/gvM4c7a37Veam8OfQcWgsNIwL/YCkixUU/qZdqcI57AhVRpTor3zIWCslVs/NJjYxi+JW5sz0kpvEyuAZ+AQuJCo6hpioUGZ5TsLDdxVH7grjx8uEn4aMMHpYuhKdqWtzlDuEMJO6vwcK2y4TxccF+uYlVSJnxfPCymG2SC4xmKgRQujyxOqweHGt0XifhoJEMVXTXUxOuCH0pnqYovaEiB7pKnp3sxCDlp0V9Y8VGERpRowY3mOsePt4sWhsuUpfJnbNCxe7a0z5e1x7S3Q5y8Vgq8FieY6uxRgFC9enNMJC7S12FBse2aJSZEQ8L552VAm74AOirhNeSg5FiaGOo8XSb4qEruUq/T2REeMv4q7+V6g5fhrOLRODrIaJ2Is60YEotMkTTHk2jHrdA5eH2Zz5oY2Eq/ow6kVXupm457PsN53po3TkHD9HZQcV1JzezUW3BOKm23ErLZkztY8U1J1jbcwWagPj+cDjaVQt1ykdmBIRyFAVpmlHu5ENGDj3D7g1fsOWpBu0vLAZftGy7e405j1n0UkvZ1jz5hfUBsaz2tOJVl2UDriFLmC8YzuH8xE/SrUGtUqNRi3dnc+TdWqop17RjiCFBq+wObiYKjHUUF0j6NLdhi4d2nkVJ9N+YIK/FzOCvXEs3EfSydYTjS5vPwdvqZn82ot0fVwYPSe4M6ytnban3QhKl7lEettyYfsXfNfw29IGLm3dQ4+wAFyN9jLDS+4B0n+2w33qS1gb6dBttCcTe7ST/Ef8KJoDZa+W5gkPniRQ9TdJ25ZO7cRIQkYaP+sMBZt4a2N+G/dBOgqPfsKX3zvjP2+K0YEySeUx0q654zfOCluPIGb2KuNg0lHut/i6q/5mPndEL1x7t3UZMk772k2g0DAtMgDX/J1sOfYQAFFxiM++m8QiT7vOe7lVwB3Rmz6d8GLKj1KtQW2lxr67dIEyngRT6K+x881Asi2LyD15AYPXJk7sW8AQlZEaGxClP1I+zctEnwDOKh5QZfUMYQdOsegVe8y3JajI2MMtj+WMsgAs3Ajy7cP2vyaRXjaL4OYz1WAwgEKJUmlmZ3O0m0HXCeHMH5HIusS9rPEKoXrn36gN3MpwiwYyJfZiKDyL9shVagSAin4vB/PKQEvz/HRRo3FywF7CZ/2OBUo1hJCNKSzpW0Sy3xjCf7xOlUphvKa/EkPBZ6w4bORgqoYQsnEXS/p30om4x+HUs9yvWUOwf1N/UdEVm4fHSNpfRFB4bxSAdd/+9BLf8kthI4ww48w2R7s5qIYSGuFO3B+3sPNyP+6mDyTyoBMKfn4iL04imztFrb0oe43Fyz2XgGHLqFx1gSP9LM33o3Cg12AnNBIGqnOtlM4EJKxnakkCYSszeWDiI2LlgMXERQ9AWfcrNwsbjBeZSd2J9Xx8vunmX5Sks69yMWnpqWi1WrRaLamHtSwd0cDp5D3cbr6uW471ZWb/+xz/+iw1RnpWZ35JaoHxSe3JtCtx9ovA2/YimwKXcOX3UbiZmM/N9jJmJj59Kzh5OIdW9+sKK+xdnLBVKOjm2BNbE+eNUT+Wv2P13vearowS0elsKp0DSfhoKuWJ4bxztJy2PkyvPb2WD09Ud3ZXQCNXz2RzT6EABEUH91PvM5dBLQdPNRT/oDEYvk0h9afm56uu41n5eQz2qUtZkVFE67c7leQcPExBbduf1HdWu8Lei8igPtwtfZaFoc9g/Dh3wIu1G7GbF2GT8ifeO15C61dj5v8toKUf/fWdRM2JJiVf385W5mNGNgUPcrV8qr1Mvf4BhxI+ovusEBZM6o1L8Ebi9o7hjXA/DDOGYV2cS72+7D/zNoBBV0vpPy/h8pf1VGRvZ+3289TpH5L2/rvU+ITxjs/g5sE2UJy1nc+Tc6nXl7Pr7QXkdW9a3lBdzr+yS/H1Lef8V1vZsDGPes/9HL0RydRBTY9p1Ve+5tBtS+waz7HlrVisI+cTMW0wDh7ryDq1h/j10fhre+LiaIOFvoqi/BuUWU9gyVNQnLW1eb+mtMe3Go/K3F0kbM6kpLGEzM1rSVZFM6V6N5u/usBPZZ8Q1zeCmLkjGR8ezhwbd7wdFVD9PWmbtnEgv5G60h2sTlQyvlseOzrgxfHVDfzjxG7i46MISHHCWdMFXXUlFXdLMIS8S/hENYpW49i2H13RZU6dzMSuyNSL1I6jEEL+14tM04/DUkRB/i1PRlLkQMlIihwoGQBJpjuQAyUjMXKgZCRFDpSMpMiBkpEUOVAykiIHSkZS5EDJSIocKBlJ+TepaDjh2rwmpgAAAABJRU5ErkJggg==</encoded_png>
 						</node>
 					</node>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="154">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="158">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="155">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="159">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -377,9 +408,10 @@ When performing the internal penetration test, there were several alarming vulne
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="156">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="160">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 
@@ -388,11 +420,11 @@ When performing the internal penetration test, there were several alarming vulne
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="157">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020510.67" unique_id="161">
 					<rich_text></rich_text>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="158">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="162">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="159">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="163">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -414,6 +446,7 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -423,26 +456,33 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="160">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="164">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 
@@ -450,32 +490,39 @@ When performing the internal penetration test, there were several alarming vulne
 							<encoded_png char_offset="0">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</encoded_png>
 						</node>
 					</node>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="161">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="165">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="162">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="166">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -484,9 +531,10 @@ When performing the internal penetration test, there were several alarming vulne
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="163">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="167">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 
@@ -495,11 +543,11 @@ When performing the internal penetration test, there were several alarming vulne
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="164">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020510.67" unique_id="168">
 					<rich_text></rich_text>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="165">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="169">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="166">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="170">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -521,6 +569,7 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -530,26 +579,33 @@ When performing the internal penetration test, there were several alarming vulne
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="167">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="171">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 
@@ -557,32 +613,39 @@ When performing the internal penetration test, there were several alarming vulne
 							<encoded_png char_offset="0">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</encoded_png>
 						</node>
 					</node>
-					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="168">
+					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="172">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="169">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="173">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -591,9 +654,10 @@ When performing the internal penetration test, there were several alarming vulne
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
-						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="170">
+						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="174">
 							<rich_text justification="left"></rich_text>
 							<rich_text>
 

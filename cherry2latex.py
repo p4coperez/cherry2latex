@@ -28,7 +28,7 @@ TAGS_REPORT = 'report'
 TAGS_IMAGE = 'image'
 TAGS_TEXT = 'rich_text'
 # replace characters not allowed in LaTeX
-REPLACE_CHAR_ESP = [['❯','$']] #
+REPLACE_CHAR_ESP = [['❯','$','á','a','é','e','í','i','ó','o','ú','u','ñ','n','“','"','”','"']] #
 
 
 class CT2LaTeX:
@@ -82,6 +82,14 @@ class CT2LaTeX:
             fint = codecs.open(file, 'r', "utf-8")
             content = fint.read()
             content = content.replace( chars[0], chars[1])
+            content = content.replace( chars[2], chars[3])
+            content = content.replace( chars[4], chars[5])
+            content = content.replace( chars[6], chars[7])
+            content = content.replace( chars[8], chars[9])
+            content = content.replace( chars[10], chars[11])
+            content = content.replace( chars[12], chars[13])
+            content = content.replace( chars[14], chars[15])
+            content = content.replace( chars[16], chars[17])
             fint.close()
             fout = codecs.open(file, 'w', "utf-8")
             fout.write(content)

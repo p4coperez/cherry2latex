@@ -182,7 +182,7 @@
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="172">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="173">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="173">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -204,6 +204,7 @@
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -213,24 +214,31 @@
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="174">
 							<rich_text justification="left"></rich_text>
@@ -242,30 +250,37 @@
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="175">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="176">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="176">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -274,7 +289,8 @@
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="177">
 							<rich_text justification="left"></rich_text>
@@ -285,11 +301,11 @@
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020669.37" unique_id="178">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020510.67" unique_id="178">
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="179">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="180">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="180">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -311,6 +327,7 @@
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -320,24 +337,31 @@
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="181">
 							<rich_text justification="left"></rich_text>
@@ -349,30 +373,37 @@
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="182">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="183">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="183">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -381,7 +412,8 @@
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="184">
 							<rich_text justification="left"></rich_text>
@@ -392,11 +424,11 @@
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020681.86" unique_id="185">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020510.67" unique_id="185">
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="186">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="187">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="187">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -418,6 +450,7 @@
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -427,24 +460,31 @@
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="188">
 							<rich_text justification="left"></rich_text>
@@ -456,30 +496,37 @@
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="189">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="190">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="190">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -488,7 +535,8 @@
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="191">
 							<rich_text justification="left"></rich_text>
@@ -499,11 +547,11 @@
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020694.33" unique_id="192">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644020510.67" unique_id="192">
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="193">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="194">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644026610.97" unique_id="194">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -525,6 +573,7 @@
 
 \vspace{1cm}
 \textbf{Nmap Scan Results:}\par
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -534,24 +583,31 @@
 
 \vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof of Concept Code Here:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
-\textbf{Initial Shell Screenshot:}</rich_text>
+\textbf{Initial Shell Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="195">
 							<rich_text justification="left"></rich_text>
@@ -563,30 +619,37 @@
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="196">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="197">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644026641.32" unique_id="197">
 							<rich_text>\begin{center}
 \end{center}
 
 \vspace{1cm}
 \textbf{Additional Priv Esc info}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Explanation:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Vulnerability Fix:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Severity:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Exploit Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof.txt Contents:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
@@ -595,7 +658,8 @@
     \end{adjustbox}   
 
 \vspace{1cm}
-\textbf{Proof Screenshot:}</rich_text>
+\textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="198">
 							<rich_text justification="left"></rich_text>
@@ -606,20 +670,24 @@
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.Y.Y (b0f-vic)" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847986.18" ts_lastsave="1641946274.45" unique_id="144">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.Y.Y (b0f-vic)" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847986.18" ts_lastsave="1644026776.59" unique_id="144">
 					<rich_text></rich_text>
-					<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641848090.39" ts_lastsave="1644020622.37" unique_id="145">
+					<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641848090.39" ts_lastsave="1644026674.64" unique_id="145">
 						<rich_text>\vspace{1cm}
 \textbf{Vulnerability Exploited:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Fill out this section with BOF NOTES}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Proof Screenshot:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
 \vspace{1cm}
 \textbf{Completed Buffer Overflow Code:}
+\par\noindent\rule{\textwidth}{0.4pt}
 
     \begin{adjustbox}{width=\textwidth,keepaspectratio}
     \begin{lstlisting}[language=bash, caption={bash output}]   
