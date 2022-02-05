@@ -174,11 +174,11 @@ When performing the internal penetration test, there were several alarming vulne
 				<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641847613.62" ts_lastsave="1641952393.92" unique_id="133">
 					<rich_text>The penetration testing portions of the assessment focus heavily on gaining access to a variety of systems. During this penetration test, I was able to successfully gain access to X out of the X systems.</rich_text>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1641945105.28" unique_id="125">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="125">
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="126">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1641953032.33" unique_id="149">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="149">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -197,26 +197,35 @@ When performing the internal penetration test, there were several alarming vulne
 }
 \end{table}
 
-\vspace{1cm}
 
+\vspace{1cm}
 \textbf{Nmap Scan Results:}\par
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
-    
+    \end{adjustbox}   
+
+\vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
 
+\vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Proof of Concept Code Here:}
 
+\vspace{1cm}
 \textbf{Initial Shell Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="101">
@@ -229,28 +238,38 @@ When performing the internal penetration test, there were several alarming vulne
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="127">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1641869589.76" unique_id="148">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="148">
 							<rich_text>\begin{center}
 \end{center}
 
+\vspace{1cm}
 \textbf{Additional Priv Esc info}
 
+\vspace{1cm}
 \textbf{Vulnerability Exploited:}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Exploit Code:}
 
+\vspace{1cm}
 \textbf{Proof.txt Contents:}
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
+    \end{adjustbox}   
 
+\vspace{1cm}
 \textbf{Proof Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="118">
@@ -262,11 +281,11 @@ When performing the internal penetration test, there were several alarming vulne
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1641945105.28" unique_id="150">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="150">
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="151">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1641953023.55" unique_id="152">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="152">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -285,26 +304,35 @@ When performing the internal penetration test, there were several alarming vulne
 }
 \end{table}
 
-\vspace{1cm}
 
+\vspace{1cm}
 \textbf{Nmap Scan Results:}\par
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
-    
+    \end{adjustbox}   
+
+\vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
 
+\vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Proof of Concept Code Here:}
 
+\vspace{1cm}
 \textbf{Initial Shell Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="153">
@@ -317,28 +345,38 @@ When performing the internal penetration test, there were several alarming vulne
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="154">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1641869589.76" unique_id="155">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="155">
 							<rich_text>\begin{center}
 \end{center}
 
+\vspace{1cm}
 \textbf{Additional Priv Esc info}
 
+\vspace{1cm}
 \textbf{Vulnerability Exploited:}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Exploit Code:}
 
+\vspace{1cm}
 \textbf{Proof.txt Contents:}
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
+    \end{adjustbox}   
 
+\vspace{1cm}
 \textbf{Proof Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="156">
@@ -350,11 +388,11 @@ When performing the internal penetration test, there were several alarming vulne
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1641945105.28" unique_id="157">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="157">
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="158">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1641953015.94" unique_id="159">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="159">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -373,26 +411,35 @@ When performing the internal penetration test, there were several alarming vulne
 }
 \end{table}
 
-\vspace{1cm}
 
+\vspace{1cm}
 \textbf{Nmap Scan Results:}\par
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
-    
+    \end{adjustbox}   
+
+\vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
 
+\vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Proof of Concept Code Here:}
 
+\vspace{1cm}
 \textbf{Initial Shell Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="160">
@@ -405,28 +452,38 @@ When performing the internal penetration test, there were several alarming vulne
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="161">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1641869589.76" unique_id="162">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="162">
 							<rich_text>\begin{center}
 \end{center}
 
+\vspace{1cm}
 \textbf{Additional Priv Esc info}
 
+\vspace{1cm}
 \textbf{Vulnerability Exploited:}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Exploit Code:}
 
+\vspace{1cm}
 \textbf{Proof.txt Contents:}
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
+    \end{adjustbox}   
 
+\vspace{1cm}
 \textbf{Proof Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="163">
@@ -438,11 +495,11 @@ When performing the internal penetration test, there were several alarming vulne
 						</node>
 					</node>
 				</node>
-				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1641945105.28" unique_id="164">
+				<node custom_icon_id="25" foreground="" is_bold="False" name="System IP: 192.168.X.X" prog_lang="custom-colors" readonly="False" tags="subsection" ts_creation="1641847141.16" ts_lastsave="1644019961.01" unique_id="164">
 					<rich_text></rich_text>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Service Enumeration" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847182.68" ts_lastsave="1641862072.45" unique_id="165">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1641952970.71" unique_id="166">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641864051.58" ts_lastsave="1644019820.4" unique_id="166">
 							<rich_text>The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
 \vspace{1cm}
@@ -454,33 +511,42 @@ When performing the internal penetration test, there were several alarming vulne
 \rowcolor[HTML]{C9211E} 
 {\color[HTML]{FFFFFF} \textbf{Server IP Address}} &amp; {\color[HTML]{FFFFFF} \textbf{Open Ports}} \\ \hline
                                                               &amp; TCP:                              \\ \cline{2-2} 
-\multirow{-2}{*}{192.168.X.X}            &amp; UDP:                             \\ \hline
+\multirow{-2}{*}{192.168.X.X}            &amp; UDP:                              \\ \hline
                                                               &amp; TCP:                              \\ \cline{2-2} 
-\multirow{-2}{*}{192.168.X.X}            &amp; UDP:                             \\ \hline
+\multirow{-2}{*}{192.168.X.X}            &amp; UDP:                              \\ \hline
 \end{tabular}
 }
 \end{table}
 
-\vspace{1cm}
 
+\vspace{1cm}
 \textbf{Nmap Scan Results:}\par
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
-    
+    \end{adjustbox}   
+
+\vspace{1cm}    
 \textbf\large{Initial Shell Vulnerability Exploited}
 
+\vspace{1cm}
 \textbf{Additional info about where the initial shell was acquired from}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Proof of Concept Code Here:}
 
+\vspace{1cm}
 \textbf{Initial Shell Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Local.txt Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641727639.57" ts_lastsave="1641945238.65" unique_id="167">
@@ -493,28 +559,38 @@ When performing the internal penetration test, there were several alarming vulne
 					</node>
 					<node custom_icon_id="25" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="subsubsection" ts_creation="1641847211.68" ts_lastsave="1641847228.34" unique_id="168">
 						<rich_text></rich_text>
-						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1641869589.76" unique_id="169">
+						<node custom_icon_id="18" foreground="" is_bold="False" name="Text1" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641861460.47" ts_lastsave="1644019911.34" unique_id="169">
 							<rich_text>\begin{center}
 \end{center}
 
+\vspace{1cm}
 \textbf{Additional Priv Esc info}
 
+\vspace{1cm}
 \textbf{Vulnerability Exploited:}
 
+\vspace{1cm}
 \textbf{Vulnerability Explanation:}
 
+\vspace{1cm}
 \textbf{Vulnerability Fix:}
 
+\vspace{1cm}
 \textbf{Severity:}
 
+\vspace{1cm}
 \textbf{Exploit Code:}
 
+\vspace{1cm}
 \textbf{Proof.txt Contents:}
 
-    \begin{lstlisting}[language=bash,breaklines=true]
+    \begin{adjustbox}{width=\textwidth,keepaspectratio}
+    \begin{lstlisting}[language=bash, caption={bash output}]   
     Code Here!
     \end{lstlisting}
+    \end{adjustbox}   
 
+\vspace{1cm}
 \textbf{Proof Screenshot:}</rich_text>
 						</node>
 						<node custom_icon_id="22" foreground="" is_bold="False" name="Proof Screenshot" prog_lang="custom-colors" readonly="False" tags="image" ts_creation="1641781718.3" ts_lastsave="1641945292.69" unique_id="170">

@@ -77,7 +77,7 @@ class CT2LaTeX:
             self.replace_char_especial(fname)
 
     def replace_char_especial(self,file):
-        print("aver: "+str(file))
+       
         for chars in REPLACE_CHAR_ESP:
             fint = codecs.open(file, 'r', "utf-8")
             content = fint.read()
@@ -114,6 +114,7 @@ class CT2LaTeX:
             f.write('\\usepackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=5cm]{geometry}\n')
             f.write('\\usepackage{anyfontsize}\n')
             f.write('\\usepackage{longtable}\n')
+            f.write('\\usepackage{adjustbox}\n')
             # show code in latex
             f.write('\\usepackage{listings}\n')
             f.write('\\renewcommand{\\headrulewidth}{0pt}\n')
