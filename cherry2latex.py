@@ -273,7 +273,7 @@ class CT2LaTeX:
                         f.write(self.convert2latex(node_body,'Text'+str(count))+'\n')
                     if value.attrib['tags'] == TAGS_IMAGE:
                         f.write('\\begin{center}\n')
-                        f.write('\\includegraphics{'+self.convert2latex(node_body,str(value.attrib['name']))+'}\\par\n')
+                        f.write('\\includegraphics[scale=0.4]{'+self.convert2latex(node_body,str(value.attrib['name']))+'}\\par\n')
                         f.write('\\end{center}\n')
                     
 
