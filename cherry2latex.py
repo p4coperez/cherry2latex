@@ -269,8 +269,8 @@ class CT2LaTeX:
                     if self.debug:
                         print("add_body_node: "+str(value.text))
                     if value.attrib['tags'] == 'text':
-                        count+=1
-                        f.write(self.convert2latex(node_body,'Text'+str(count))+'\n')
+                        # Add any name text node
+                        f.write(self.convert2latex(node_body,str(value.attrib['name']))+'\n')
                     if value.attrib['tags'] == TAGS_IMAGE:
                         f.write('\\begin{center}\n')
                         f.write('\\includegraphics[scale=0.4]{'+self.convert2latex(node_body,str(value.attrib['name']))+'}\\par\n')
@@ -305,10 +305,10 @@ def main():
 '''
 Estructura de arbol con nodos 
 image_nombre_unico
-text1
+text_nombre_unico
 image_nombre_unico
-text2
-text3 
+text_nombre_unico
+text_nombre_unico
 
 (tipos nodo que se recorren en orden y el contenido es solo una imagen o texto) que es lo que se añade luego en el informe
 en cada nodo padre al que corresponde.
