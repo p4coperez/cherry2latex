@@ -131,10 +131,10 @@ When performing the internal penetration test, there were several alarming vulne
 			</node>
 			<node custom_icon_id="25" foreground="" is_bold="False" name="Recommendations" prog_lang="custom-colors" readonly="False" tags="section" ts_creation="1641846936.31" ts_lastsave="1641847025.5" unique_id="121">
 				<rich_text></rich_text>
-				<node custom_icon_id="18" foreground="" is_bold="False" name="Text Recomendations" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641848496.49" ts_lastsave="1646558422.0" unique_id="146">
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Text Recomendations" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641848496.49" ts_lastsave="1652375808.86" unique_id="146">
 					<rich_text>{
 I recommend patching the vulnerabilities identified during the testing to ensure that an attacker cannot exploit these systems in the future. One thing to remember is that these systems require frequent patching and once patched, should remain on a regular patch program to protect additional vulnerabilities that are discovered at a later date.
-}
+}\par
 \vspace{0.5cm}
 </rich_text>
 				</node>
@@ -144,11 +144,11 @@ I recommend patching the vulnerabilities identified during the testing to ensure
 			<rich_text>
 
 </rich_text>
-			<node custom_icon_id="18" foreground="" is_bold="False" name="Text Methodologies" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641781873.73" ts_lastsave="1646558552.82" unique_id="119">
+			<node custom_icon_id="18" foreground="" is_bold="False" name="Text Methodologies" prog_lang="custom-colors" readonly="False" tags="text" ts_creation="1641781873.73" ts_lastsave="1652375786.59" unique_id="119">
 				<rich_text>{
 I utilized a widely adopted approach to performing penetration testing that is effective in testing how well the Offensive Security Lab environments is secured. Below is a breakout of how I was able to identify and exploit the variety of systems and includes all individual vulnerabilities found.
-}
-
+}\par
+\vspace{0.5cm}
  </rich_text>
 			</node>
 			<node custom_icon_id="25" foreground="" is_bold="False" name="Information Gathering" prog_lang="custom-colors" readonly="False" tags="section" ts_creation="1641847016.18" ts_lastsave="1641847251.55" unique_id="123">
