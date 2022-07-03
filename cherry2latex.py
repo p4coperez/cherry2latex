@@ -27,6 +27,7 @@ PATH_IMAGES = "_latex"
 TAGS_REPORT = 'report'
 TAGS_IMAGE = 'image'
 TAGS_TEXT = 'rich_text'
+TAG_FRONT_PAGE = 'front_page'
 
 # add new body chapter here
 MAX_CHAPTER = 4
@@ -144,7 +145,7 @@ class CT2LaTeX:
             f.write('\\setcounter{tocdepth}{3}\n')
             f.write('\\setcounter{secnumdepth}{3}\n')
             # search node front_page
-            self.search_tags2node(self.node_report,'front_page')
+            self.search_tags2node(self.node_report,TAG_FRONT_PAGE)
             # add header front_page
             f.write('\\fancyhead[C]{\\includegraphics[width=\\textwidth]{'+self.convert2latex(self.node_report ,'head_image')+'}}\n')
             
