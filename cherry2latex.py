@@ -27,6 +27,10 @@ PATH_IMAGES = "_latex"
 TAGS_REPORT = 'report'
 TAGS_IMAGE = 'image'
 TAGS_TEXT = 'rich_text'
+
+# add new body chapter here
+MAX_CHAPTER = 4
+
 # replace characters not allowed in LaTeX
 REPLACE_CHAR_ESP = [['❯','$','á','a','é','e','í','i','ó','o','ú','u','ñ','n','“','"','”','"']] #
 
@@ -77,19 +81,18 @@ class CT2LaTeX:
             self.replace_char_especial(fname)
 
     def replace_char_especial(self,file):
-       
+
+        count = 0
+        for i in REPLACE_CHAR_ESP[0]:
+            count += 1
+
         for chars in REPLACE_CHAR_ESP:
             fint = codecs.open(file, 'r', "utf-8")
             content = fint.read()
-            content = content.replace( chars[0], chars[1])
-            content = content.replace( chars[2], chars[3])
-            content = content.replace( chars[4], chars[5])
-            content = content.replace( chars[6], chars[7])
-            content = content.replace( chars[8], chars[9])
-            content = content.replace( chars[10], chars[11])
-            content = content.replace( chars[12], chars[13])
-            content = content.replace( chars[14], chars[15])
-            content = content.replace( chars[16], chars[17])
+            i = 0
+            while i < count:
+                content = content.replace( chars[i], chars[(i+1)]) 
+                i += 2
             fint.close()
             fout = codecs.open(file, 'w', "utf-8")
             fout.write(content)
@@ -156,15 +159,10 @@ class CT2LaTeX:
             f.write('\\thispagestyle{fancy}\n')
             
             # add body
-            self.search_tags2node(self.cherrytree.getroot(),'chapter1')
-            self.add_chatper_body(self.node_report, f)
-            self.search_tags2node(self.cherrytree.getroot(),'chapter2')
-            self.add_chatper_body(self.node_report, f)
-            self.search_tags2node(self.cherrytree.getroot(),'chapter3')
-            self.add_chatper_body(self.node_report, f)
-            self.search_tags2node(self.cherrytree.getroot(),'chapter4')
-            self.add_chatper_body(self.node_report, f)
-            # add new body chapter here
+            for num_chapter in range(1,MAX_CHAPTER+1):
+                self.search_tags2node(self.cherrytree.getroot(),'chapter'+str(num_chapter))
+                self.add_chatper_body(self.node_report, f)
+
 
             # add page footer
             f.write('\\end{document}\n')
