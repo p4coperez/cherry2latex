@@ -163,7 +163,7 @@ class CT2LaTeX:
             
             # add body
             MAX_CHAPTER = MAX_CHAPTER_EXAM
-            print("valor: "+str(self.convert2latex(self.node_report ,'Subtitle2')))
+            print("Generated Latex from Template: "+str(self.convert2latex(self.node_report ,'Subtitle2')))
             if str(self.convert2latex(self.node_report ,'Subtitle2')) == SUBTITLE_LAB_INTERNAL:
                 MAX_CHAPTER = MAX_CHAPTER_LAB
             for num_chapter in range(1,MAX_CHAPTER+1):
