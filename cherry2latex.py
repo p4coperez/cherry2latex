@@ -30,7 +30,9 @@ TAGS_TEXT = 'rich_text'
 TAG_FRONT_PAGE = 'front_page'
 
 # add new body chapter here
-MAX_CHAPTER = 4
+MAX_CHAPTER_EXAM = 6
+MAX_CHAPTER_LAB = 3
+SUBTITLE_LAB_INTERNAL = "Internal Lab"
 
 # replace characters not allowed in LaTeX
 REPLACE_CHAR_ESP = [['❯','$','á','a','é','e','í','i','ó','o','ú','u','ñ','n','“','"','”','"']] #
@@ -160,6 +162,10 @@ class CT2LaTeX:
             f.write('\\thispagestyle{fancy}\n')
             
             # add body
+            MAX_CHAPTER = MAX_CHAPTER_EXAM
+            print("valor: "+str(self.convert2latex(self.node_report ,'Subtitle2')))
+            if str(self.convert2latex(self.node_report ,'Subtitle2')) == SUBTITLE_LAB_INTERNAL:
+                MAX_CHAPTER = MAX_CHAPTER_LAB
             for num_chapter in range(1,MAX_CHAPTER+1):
                 self.search_tags2node(self.cherrytree.getroot(),'chapter'+str(num_chapter))
                 self.add_chatper_body(self.node_report, f)
@@ -234,13 +240,17 @@ class CT2LaTeX:
                             for level2 in list(level):
                                 if level2.tag == 'node' and level2.attrib['tags'] is not None:
                                     if level2.attrib['tags'] == 'subsection':
-                                        self.add_subsection_body(level2, f)
+                                        self.add_subsection_body(level2, f) 
                                 else:
-                                    self.add_body_node(level2, f) 
+                                    self.add_body_node(level2, f)
+                                     
                         else:
-                            self.add_body_node(level, f)
+                            self.add_body_node(level, f)      
                     else:
-                        self.add_body_node(node_body, f)   
+                        self.add_body_node(node_body, f)
+                        
+                        
+                          
 
 
     def add_subsection_body(self, node_body, f):
@@ -254,11 +264,17 @@ class CT2LaTeX:
                             self.add_body_node( level3, f)
                             f.write('\\thispagestyle{fancy}\n') 
                         else:
-                            self.add_body_node(node_body, f)
+                           self.add_body_node(node_body, f)
+                           break
+                        
                     else:
                         self.add_body_node(level3, f)
+                      
+                        
+                        
             else:
                 self.add_body_node(node_body, f)
+                
 
     def add_body_node(self, node_body, f):
         if node_body.tag == 'node' and node_body.text is not None:
